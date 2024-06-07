@@ -1,0 +1,22 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    height: 50px;
+    width: 100%;
+    background-color: #36393b;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+#texto {
+    font-size: 40px;
+}
