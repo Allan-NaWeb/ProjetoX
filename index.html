@@ -2,23 +2,43 @@
 <html lang="pt-br">
     <head>
         <meta charset="utf-8">
-        <title>Projeto X</title>
-        <link href="css/estilo.css" rel="stylesheet" type="text/css">
+        <title>Cadastro de Colaborador</title>
     </head>
 
     <body>
-        <!-- Menu Superior do Projeto -->
-        <header>
-            <div id="menu">
-                <label id="logo">SISTEMA</label>
-            </div>
-        </header>
+        <form>
+            <table>
+                <th colspan=30><h2>Novo Cadastro</h2></th>
 
-        <!-- Conteúdo Principal do Site -->
-        <main>
-            <label id="texto">Olá</label>
-            <p>sou um sistema em desenvolvimento :)</p>
-        </main>
+                <tr>
+                    <td colspan=15>Nome: </td><td colspan=15><input type="text"></td>
+                </tr><br><br>
 
+                <tr>
+                    <td colspan=15>ID: </td><td colspan=15><input type="text"></td>
+                </tr><br><br>
+
+                <tr>
+                    <td colspan=15>Setor: </td>
+                    <td colspan=15>
+                    <select>
+                        <option>RECEBIMENTO</option>
+                        <option>SEPARAÇÃO</option>
+                        <option>EXPEDIÇÃO</option>
+                    </select>
+                    </td>
+                </tr><br><br>
+
+                <tr>
+                    <td colspan=10>Sexo: </td>
+                    <td colspan=10><input type="radio" name="sx">Masculino</td>
+                    <td colspan=10><input type="radio" name="sx">Feminino</td>
+                </tr><br><br>
+
+                <tr>
+                    <td colspan=30><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
     </body>
 </html>
