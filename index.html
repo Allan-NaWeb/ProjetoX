@@ -3,12 +3,25 @@
     <head>
         <meta charset="utf-8">
         <title>Cadastro de Colaborador</title>
+        <style>
+            #botao{
+                background-color: chartreuse;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                width: 120px;
+            }
+
+            #tit{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+        </style>
     </head>
 
     <body>
         <form>
             <table>
-                <th colspan=30><h2>Novo Cadastro</h2></th>
+                <th colspan=30>
+                    <h2 id="tit">Novo Cadastro</h2>
+                </th>
 
                 <tr>
                     <td colspan=15>Nome: </td><td colspan=15><input type="text"></td>
@@ -36,7 +49,7 @@
                 </tr><br><br>
 
                 <tr>
-                    <td colspan=30><input type="submit"></td>
+                    <td colspan=30><button type="submit" id="botao"><strong>Continuar</strong></button></td>
                 </tr>
             </table>
         </form>
